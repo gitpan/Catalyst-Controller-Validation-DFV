@@ -3,7 +3,7 @@ use inc::Module::Install;
 
 # Define metadata
 name            'Catalyst-Controller-Validation-DFV';
-version         '0.0.2';
+version         '0.0.3';
 all_from        'lib/Catalyst/Controller/Validation/DFV.pm';
 
 # Specific dependencies

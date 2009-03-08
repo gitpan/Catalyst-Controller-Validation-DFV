@@ -3,7 +3,7 @@ package Catalyst::Controller::Validation::DFV;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv(0.0.2)->numify;
+use version; our $VERSION = qv(0.0.3)->numify;
 
 use base 'Catalyst::Controller';
 
