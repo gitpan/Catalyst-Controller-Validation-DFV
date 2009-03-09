@@ -3,12 +3,11 @@ package Catalyst::Controller::Validation::DFV;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv(0.0.3)->numify;
+use version; our $VERSION = qv(0.0.4)->numify;
 
 use base 'Catalyst::Controller';
 
 use Carp;
-use Data::Dump qw(pp);
 use Data::FormValidator '4.50';
 use Data::FormValidator::Constraints qw(:closures);
 
