@@ -4,7 +4,7 @@ author:
   - 'Chisel Wright C<< <chiselwright@users.berlios.de> >>'
 build_requires:
   FindBin: 0
-  Test::More: 0.72
+  Test::More: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.75'
 license: perl
@@ -19,7 +19,8 @@ no_index:
     - examples
     - examples
 requires:
+  Catalyst::Controller: 0
   Data::FormValidator: 4.50
   Data::FormValidator::Constraints: 0
   Test::More: 0.72
-version: 0.0.4
+version: 0.0.5
