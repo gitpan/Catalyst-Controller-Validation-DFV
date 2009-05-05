@@ -3,7 +3,7 @@ package Catalyst::Controller::Validation::DFV;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv(0.0.5)->numify;
+use version; our $VERSION = qv(0.0.6)->numify;
 
 use base 'Catalyst::Controller';
 
@@ -84,7 +84,7 @@ __END__
 
 =head1 NAME
 
-Catalyst::Controller::Validation::DFV - check form data
+Catalyst::Controller::Validation::DFV - Form validation and refilling
 
 =head1 SUMMARY
 

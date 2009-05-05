@@ -20,4 +20,14 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 README
+SIGNATURE
+t/00.basic.t
 t/10.catalyst.controller.validation.dfv.t
+t/lib/TestApp.pm
+t/lib/TestApp/Component/HTML/Template.pm
+t/lib/TestApp/Component/TT.pm
+t/lib/TestApp/Controller/Base.pm
+t/lib/TestApp/Controller/Form.pm
+t/root/src/tmpl/form/first
+t/root/src/tt2/form/first.tt
+TODO
