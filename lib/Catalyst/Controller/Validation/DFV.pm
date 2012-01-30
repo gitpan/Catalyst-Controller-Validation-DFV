@@ -1,9 +1,12 @@
 package Catalyst::Controller::Validation::DFV;
-# vim: ts=8 sts=4 et sw=4 sr sta
+{
+  $Catalyst::Controller::Validation::DFV::VERSION = '0.0.7';
+}
+{
+  $Catalyst::Controller::Validation::DFV::DIST = 'Catalyst-Controller-Validation-DFV';
+}
 use strict;
 use warnings;
-
-use version; our $VERSION = qv(0.0.6)->numify;
 
 use base 'Catalyst::Controller';
 
@@ -77,8 +80,8 @@ sub refill_form :Private {
 }
 
 1;
+# ABSTRACT: Form validation and refilling
 
-__END__
 
 =pod
 
@@ -86,9 +89,9 @@ __END__
 
 Catalyst::Controller::Validation::DFV - Form validation and refilling
 
-=head1 SUMMARY
+=head1 VERSION
 
-Form-validation using a Catalyst controller and Data::FormValidator
+version 0.0.7
 
 =head1 SYNOPSIS
 
@@ -148,6 +151,10 @@ Form-validation using a Catalyst controller and Data::FormValidator
         $c->forward('refill_form');
     }
 
+=head1 DESCRIPTION
+
+Form-validation using a Catalyst controller and Data::FormValidator
+
 =head1 EXAMPLES
 
 There are L<Template::Toolkit> file examples in the examples/ directory of
@@ -155,11 +162,18 @@ this distribution.
 
 =head1 AUTHOR
 
-Chisel Wright C<< <chiselwright@users.berlios.de> >>
+Chisel <chisel@chizography.net>
 
-=head1 LICENSE
+=head1 COPYRIGHT AND LICENSE
 
-This library is free software, you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This software is copyright (c) 2012 by Chisel Wright.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+
+__END__
+
+# vim: ts=8 sts=4 et sw=4 sr sta
