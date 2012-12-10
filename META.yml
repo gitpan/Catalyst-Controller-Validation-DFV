@@ -4,7 +4,6 @@ author:
   - 'Chisel <chisel@chizography.net>'
 build_requires:
   Catalyst: 0
-  Catalyst::Controller::Validation::DFV: 0
   Catalyst::Plugin::FillInForm: 0
   Catalyst::View::HTML::Template: 0
   Catalyst::View::TT: 0
@@ -18,7 +17,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -35,5 +34,5 @@ requires:
   warnings: 0
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Catalyst-Controller-Validation-DFV
-  repository: git://github.com/chiselwright/catalyst-validation-dfv
-version: 0.0.7
+  repository: git://github.com/chiselwright/catalyst-validation-dfv.git
+version: 0.0.8

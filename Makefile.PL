@@ -13,7 +13,6 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Chisel <chisel\@chizography.net>",
   "BUILD_REQUIRES" => {
     "Catalyst" => 0,
-    "Catalyst::Controller::Validation::DFV" => 0,
     "Catalyst::Plugin::FillInForm" => 0,
     "Catalyst::View::HTML::Template" => 0,
     "Catalyst::View::TT" => 0,
@@ -42,7 +41,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0.7",
+  "VERSION" => "0.0.8",
   "test" => {
     "TESTS" => "t/*.t"
   }

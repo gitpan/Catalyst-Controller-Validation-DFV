@@ -1,6 +1,6 @@
 package Catalyst::Controller::Validation::DFV;
 {
-  $Catalyst::Controller::Validation::DFV::VERSION = '0.0.7';
+  $Catalyst::Controller::Validation::DFV::VERSION = '0.0.8';
 }
 {
   $Catalyst::Controller::Validation::DFV::DIST = 'Catalyst-Controller-Validation-DFV';
@@ -82,7 +82,6 @@ sub refill_form :Private {
 1;
 # ABSTRACT: Form validation and refilling
 
-
 =pod
 
 =head1 NAME
@@ -91,7 +90,7 @@ Catalyst::Controller::Validation::DFV - Form validation and refilling
 
 =head1 VERSION
 
-version 0.0.7
+version 0.0.8
 
 =head1 SYNOPSIS
 
@@ -172,7 +171,6 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
 
 __END__
 
